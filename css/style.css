@@ -1,7 +1,3 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
@@ -43,7 +39,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family:Roboto;
+     font-family:Arial, Helvetica, sans-serif;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -237,6 +233,11 @@ button {
      padding: 40px 0px;
 }
 
+
+.logo a p {
+     color:#fff;
+}
+
 .contact_main {
     width: 100%;
     float: left;
@@ -283,12 +284,12 @@ button {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #f5cb0a;
+    color: #3bb3d1;
 }
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/vscodebg.png);
     height: auto;
     padding-top: 50px;
     padding-bottom: 162px;
@@ -311,7 +312,7 @@ p.best_text {
     width: 100%;
     float: left;
     font-size: 20px;
-    color: #dcb916;
+    color: #536e75;
     font-weight: 500;
     margin-left: 0px;
     margin-top: 0px;
@@ -392,7 +393,7 @@ p.lorem_text {
 }
 .carousel-indicators li.active {
     margin-bottom: 5px;
-    background: #c2a20e;
+    background: #3bb3d1;
 }
 .carousel-indicators li {
     background-color: #fcfcfc;
@@ -423,7 +424,7 @@ p.lorem_text {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #f5cb0a;
+    color: #3bb3d1;
     margin-left: 0px;
     font-weight: bold;
 }
@@ -435,7 +436,7 @@ p.lorem_text {
     font-weight: bold;
 }
 
-.ipsum_text{
+.ipsum_text{   
     width: 100%;
     float: left;
     font-size: 16px;
@@ -453,7 +454,7 @@ p.lorem_text {
     float: left;
     font-size: 16px;
     color: #1c1c1c;
-    background-color: #c2a20e;
+    background-color: #3bb3d1;
     text-align: center;
     text-transform: uppercase;
     padding: 14px 0px;
@@ -466,7 +467,7 @@ p.lorem_text {
 .service_section{
      width: 100%;
      float: left;
-     background-image: url(../images/service-bg.png);
+     background:url(../images/vscodebluebg.png);
      height: auto;
      background-size: cover;
      background-repeat: no-repeat;
@@ -483,7 +484,7 @@ p.lorem_text {
 }
 .services_text::after {
     content: '';
-    border: 10px solid #c2a20e;
+    border: 10px solid #3bb3d1;
     border-radius: 12px;
     position: absolute;
     width: 120px;
@@ -550,7 +551,7 @@ p.lorem_text {
     float: left;
     font-size: 16px;
     color: #1c1c1c;
-    background-color: #c2a20e;
+    background-color: #3bb3d1;
     text-align: center;
     text-transform: uppercase;
     padding: 11px 0px;
@@ -572,7 +573,7 @@ p.lorem_text {
 .discount_bg {
     width: 90%;
     margin: 0 auto;
-    background-color: #dab509;
+    background-color: #3bb3d1;
     height: auto;
     padding: 40px 0px 40px 30px;
     text-align: center;
@@ -655,7 +656,7 @@ p.lorem_text {
 
 .client_taital::after {
 content: '';
-border: 10px solid #c2a20e;
+border: 10px solid #3bb3d1;
 border-radius: 12px;
 position: relative;
 width: 120px;
@@ -682,7 +683,7 @@ justify-content: center;
      font-size: 16px;
      color: #fefeff;
      font-style: italic;
-     border-bottom: 1px solid #dab509;
+     border-bottom: 1px solid #3bb3d1;
 }
 
 .reader_text{
@@ -714,7 +715,7 @@ justify-content: center;
 
 .contact_taital::after {
     content: '';
-    border: 10px solid #c2a20e;
+    border: 10px solid #3bb3d1;
     border-radius: 12px;
     position: absolute;
     width: 120px;
@@ -734,7 +735,7 @@ justify-content: center;
     font-size: 16px;
     color: #989999;
     border: 0px;
-    border-bottom: 1px solid #dab509;
+    border-bottom: 1px solid #3bb3d1;
     background-color: transparent !important;
     padding: 50px 30px 0px 0px;
 }
@@ -744,7 +745,7 @@ justify-content: center;
     width: 100%;
     height: 110px;
     font-size: 18px;
-    border-bottom: 1px solid #dab509 !important;
+    border-bottom: 1px solid #3bb3d1 !important;
     background-color: transparent !important;
     padding: 75px 30px 0px 0px;
     border: 0px;
@@ -759,7 +760,7 @@ justify-content: center;
 .send_bt a{
      width: 30%;
      float: left;
-     background-color: #eac208;
+     background-color: #3bb3d1;
      color: #fefeff;
      text-align: center;
      padding: 10px 0px;
@@ -775,7 +776,7 @@ justify-content: center;
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #eac208;
+    color: #3bb3d1;
     padding-top: 50px;
 }
 
@@ -787,7 +788,7 @@ justify-content: center;
     width: 65%;
     float: left;
     font-size: 16px;
-    color: #eac208;
+    color: #3bb3d1;
     padding-top: 50px;
     display: flex;
 }
@@ -795,7 +796,7 @@ justify-content: center;
 .join_section{
      width: 100%;
      float: left;
-     background-color: #d0ac07;
+     background-color: #3bb3d1;
      height: auto;
      padding: 40px 0px;
 }
@@ -883,18 +884,18 @@ justify-content: center;
 }
 
 .copyright_text a:hover{
-    color: #d0ac07;
+    color: #3bb3d1;
 }
 
 #main_slider a.carousel-control-prev {
     position: absolute;
     left: -95px;
     top: 60%;
-    background-color: #f8ca12;
+    background-color: #3bb3d1;
 }
 
 #main_slider .carousel-control-prev:hover, #main_slider .carousel-control-next:hover, #main_slider .carousel-control-prev:focus, #main_slider .carousel-control-next:focus {
-    background: #f8ca12;
+    background: #3bb3d1;
     color: #fff;
 }
 
@@ -906,7 +907,7 @@ justify-content: center;
 #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
     width: 65px;
     height: 65px;
-    background: #f8ca12;
+    background: #3bb3d1;
     opacity: 1;
     font-size: 30px;
     color: #000;
